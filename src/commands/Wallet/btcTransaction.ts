@@ -14,10 +14,6 @@ export default class WalletBtcTransaction extends Command {
     force: Flags.boolean({char: 'f'}),
   }
 
-  static args = {
-    file: Args.string({description: 'file to read'}),
-  }
-
   public async run(): Promise<void> {
     const {args, flags} = await this.parse(WalletBtcTransaction)
         try{

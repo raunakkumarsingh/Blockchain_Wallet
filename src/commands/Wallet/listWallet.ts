@@ -14,9 +14,6 @@ export default class WalletListWallet extends Command {
     force: Flags.boolean({char: 'f'}),
   }
 
-  static args = {
-   
-  }
 
   public async run(): Promise<void> {
     const {args, flags} = await this.parse(WalletListWallet)

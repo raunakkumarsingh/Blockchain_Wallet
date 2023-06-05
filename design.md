@@ -1,6 +1,7 @@
 <H2> Cypherock</H2>
 
 All Database is Implemented in Better-Sqlite3 (File based database) 
+development- ./bin/dev Wallet
 
 Create Wallet
 ```
