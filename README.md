@@ -45,7 +45,7 @@ DESCRIPTION
 
 
 
-<H2> CypheWallet</H2>
+<H2> CypherWallet</H2>
 
 All Database is Implemented in Better-Sqlite3 (File based database) 
 development- ./bin/dev Wallet
